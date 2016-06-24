@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.ngoc.betapdoc_v2.MainActivity">
+    <item
+        android:id="@+id/action_st"
+        android:title="Tùy chọn"
+        android:orderInCategory="100"
+        app:showAsAction="never">
+
+            <menu>
+                <item
+                    android:id="@+id/tb_unmute3"
+                    android:title="Bật loa"
+                    android:icon="@drawable/unmute"/>
+
+                <item
+                    android:id="@+id/tb_mute3"
+                    android:title="Im lặng"
+                    android:icon="@drawable/mute"/>
+
+                <item
+                    android:id="@+id/tb_ex1"
+                    android:title="Thoát"
+                    android:icon="@drawable/exit"/>
+            </menu>
+    </item>
+</menu>

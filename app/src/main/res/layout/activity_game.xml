@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/b_game"
+    tools:context="com.example.ngoc.betapdoc_v2.game">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="90dp"
+            android:text="Bé nghe kỹ nhé"
+            android:id="@+id/textView"
+            android:textColor="#eb3434"
+            android:textSize="60dp"
+            android:singleLine="false"
+            android:typeface="serif"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="50dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="300dp">
+
+        <ImageView
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:id="@+id/imV_g"
+            android:layout_marginLeft="250dp"
+            android:layout_marginTop="80dp" />
+
+        <ImageButton
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:id="@+id/imgbtn_loa"
+            android:layout_gravity="top|center_horizontal"
+            android:src="@drawable/loa"
+            android:background="#fefcfc"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="100dp" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imgbtn_try"
+            android:layout_gravity="right|center_horizontal"
+            android:src="@drawable/thu"
+            android:background="#fefcfc"
+            android:layout_marginLeft="160dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:id="@+id/imgbtn_g1"
+            android:layout_marginLeft="290dp"
+            android:layout_marginRight="50dp" />
+
+        <ImageButton
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:id="@+id/imgbtn_g2"
+            android:layout_marginRight="50dp" />
+
+        <ImageButton
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:id="@+id/imgbtn_g3" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/background_1"
+    tools:context="com.example.ngoc.betapdoc_v2.MainActivity">
+
+
+    <Button
+        android:id="@+id/btnTroChoi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="#0dffffff"
+        android:drawableLeft="@drawable/game"
+        android:drawablePadding="10dp"
+        android:text="Trò chơi"
+        android:textColor="#2a076e"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="120dp"
+        android:layout_below="@+id/btnHocChuCai" />
+
+    <Button
+        android:id="@+id/btnHocChuCai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="#0fffffff"
+        android:drawableLeft="@drawable/abc"
+        android:drawablePadding="10dp"
+        android:text="Học chữ cái"
+        android:textColor="#2a076e"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_marginTop="200dp"
+        android:layout_marginRight="119dp"
+        android:layout_marginLeft="200dp" />
+
+
+    <Button
+        android:id="@+id/btnHuongDan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="#05ffffff"
+        android:drawableLeft="@drawable/about"
+        android:drawablePadding="-2dp"
+        android:text="Hướng dẫn"
+        android:textColor="#2a076e"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_below="@+id/btnHocChuCai"
+        android:layout_toRightOf="@+id/btnTroChoi"
+        android:layout_toEndOf="@+id/btnTroChoi"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="50dp" />
+
+
+</RelativeLayout>
